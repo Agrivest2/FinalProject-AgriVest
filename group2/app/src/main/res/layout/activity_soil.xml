@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soil"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/soil"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy Soil"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Reduce Inversion Tillage and Soil Traffic
+Excessive tillage is harmful to soil health in a number of ways. Tillage
+ increases oxygen in the soil, stimulating microbial activity, and results
+  in the decomposition of organic matter. Tillage also disrupts soil aggregates,
+   exposing particles of organic matter that had been physically protected within
+    aggregates to microbial consumption. If additions of organic matter are not
+     sufficient to counteract the losses from decomposition, organic matter levels
+      will decline over time, reducing soil health. Inversion tillage also reduces
+      the soil coverage provided by crop residues, leaving soil more exposed to erosion."
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="20dp"></TextView>
+</LinearLayout>

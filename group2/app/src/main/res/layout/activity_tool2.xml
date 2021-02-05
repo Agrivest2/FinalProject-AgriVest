@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tool2"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/tool2"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shovel/Spade"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A shovel is a tool for digging, lifting, and moving bulk materials, such as soil, coal, gravel, snow, sand, or ore. Shovels are used extensively in agriculture, construction, and gardening. Most shovels are hand tools consisting of a broad blade fixed to a medium-length handle."
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="20dp"></TextView>
+
+
+</LinearLayout>

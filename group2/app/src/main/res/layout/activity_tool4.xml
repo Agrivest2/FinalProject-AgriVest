@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tool4"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/tool4"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PICKAXE"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A pickaxe or pick is a hand tool with a hard head attached perpendicular to the handle. They are used as tools for landscaping, breaking up hard surfaces and as farming implements. It consists of a handle and a head made of metal that has both a pointed and blunt end. The pointed end breaks up hard surfaces, while the blunt end can be used to pry things up. A pickaxe can often break up soils that a shovel can’t. Dry, hardened clay or rocky soils can be broken up using the sharp end of the axe."
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>

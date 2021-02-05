@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tool5"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/tool5"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoe"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A hoe is an ancient and versatile agricultural hand tool used to shape the soil, control weeds, clear soil, and harvest root crops. Shaping the soil can be done by piling soil around the base of plants (hilling) or creating narrow furrows (drills) and shallow trenches for planting seeds and bulbs. Weed control can be done with the help of a hoe by cutting foliage from the roots and clearing the soil of old roots and crop residues. Hoes can be used for digging and moving the soil used in the harvesting of root crops such as potatoes."
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>

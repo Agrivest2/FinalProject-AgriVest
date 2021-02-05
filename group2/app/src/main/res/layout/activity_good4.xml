@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".good4"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/good4"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watering"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What time of day you water and how frequently you water is very important. The cool of the evening is the best time to soak or drip irrigate a garden, because this gives the soil and plants all night to absorb the water. Early morning is an ideal time for sprinklers. The leaves of a plant can still absorb the water in the cool of the morning but dry out during the day which minimizes any leaf molds or fungus.\n
+
+Also, avoid watering when it’s windy. Since windy conditions increase evaporation, it is inefficient for plants to absorb water. In fact, windy conditions even cause evaporation directly from the leaves of the plant as well. If possible, give your plants extra water before or after a warm windy day."
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".cropguide">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CROP TOOLS"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:src="@drawable/tool1"
+            android:layout_marginRight="70dp"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:src="@drawable/tool2"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/tool1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hand sickle"
+            android:layout_marginRight="120dp"
+            android:background="@drawable/button"
+            android:textSize="10dp"
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/tool2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="shovel/spade"
+            android:textSize="10dp"
+            >
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:src="@drawable/tool3"
+            android:layout_marginRight="70dp"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:src="@drawable/tool4"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/tool3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="fm exim"
+            android:layout_marginRight="120dp"
+            android:textSize="10dp"
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/tool4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="pickaxe"
+            android:textSize="10dp"
+            >
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:src="@drawable/tool5"
+            android:layout_marginRight="70dp"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:src="@drawable/tool6"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/tool5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="hoe"
+            android:layout_marginRight="120dp"
+            android:textSize="10dp"
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/tool6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="pruning"
+            android:textSize="10dp"
+            >
+
+        </Button>
+    </LinearLayout>
+
+    </LinearLayout>
